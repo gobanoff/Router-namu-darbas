@@ -1,0 +1,37 @@
+.v {
+  background: linear-gradient(
+    150deg,
+    #000 0%,
+    #0434ff 10%,
+    #ea0c0c 15%,
+    #01030c 26%,
+    #0918e8 37%,
+    #ff0404 44%,
+    #03061d 53%,
+    #0434ff 60%,
+    #e80909 67%,
+    #02040a 76%,
+    #0322ff 83%,
+    #ec0808 97%
+  );
+}
+.video {
+  padding-left: 400px;
+  padding-top: 60px;
+}
+.video img {
+  width: 1000px;
+  padding-bottom: 300px;
+  border-radius: 30px;
+}
+.butn4 {
+  background-color: rgba(130, 130, 36, 0.642);
+  font-size: 25px;
+  font-weight: 800;
+  text-decoration: none;
+  color: #482727;
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 10px 1px #000;
+  margin-left: 50px;
+}

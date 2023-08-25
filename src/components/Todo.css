@@ -1,0 +1,76 @@
+.todo h1 {
+  color: black;
+  font-size: 60px;
+  font-weight: 900;
+}
+.info {
+  background-color: rgb(10, 217, 217);
+  margin-right: 10px;
+  color: black;
+  font-size: 25px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 40px;
+}
+.danger {
+  width: 120px;
+  height: 50px;
+  background-color: red;
+  margin-top: 20px;
+  border-radius: 40px;
+  border: none;
+  font-size: 25px;
+  color: white;
+}
+.primary {
+  border-radius: 5px;
+  width: 120px;
+  height: 55px;
+  background-color: blue;
+  color: white;
+
+  border: none;
+  font-size: 25px;
+}
+.btn2 {
+  background-color: rgb(242, 230, 3);
+  width: 150px;
+  height: 50px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 5px 5px 10px 1px #646060;
+  text-decoration: none;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  border-radius: 10px;
+  padding-top: 20px;
+  border: none;
+}
+.todo {
+  text-align: center;
+  position: relative;
+}
+
+.form-control {
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.for {
+  width: 350px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+.todo span {
+  font-size: 25px;
+  padding-right: 180px;
+  list-style-type: none;
+}
+.todo li {
+  list-style-type: none;
+}
