@@ -3,7 +3,8 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Pass() {
-  const [length, setLength] = useState();
+  const [password, setPassword] = useState('');
+  const [length, setLength] = useState(6);
   const [number, setNumber] = useState(true);
   const [symbol, setSymbol] = useState(true);
 
@@ -43,6 +44,8 @@ function Pass() {
     const updatedPasswords = [...data, newPassword];
     setData(updatedPasswords);
     localStorage.setItem("savedPasswords", JSON.stringify(updatedPasswords));
+    console.log(newPassword);
+    setPassword(newPassword);
   };
 
   return (
@@ -52,12 +55,12 @@ function Pass() {
         Password Generator.
       </h1>
 
-      <input className="control" type="text" />
+      <input className="control" type="text" value={password} readOnly />
       <input
         className="nr"
         type="number"
         min="6"
-        max="50"
+        max="20"
         value={length}
         onChange={(e) => setLength(parseInt(e.target.value))}
       />
@@ -79,11 +82,11 @@ function Pass() {
       <button className="gen" onClick={handPassword}>
         Generate Password
       </button>
-      <p className="rez">
+      <div className="rez">
         {data.map((password, index) => (
           <p key={index}>{password}</p>
         ))}
-      </p><Link to="/" className="btn2">
+      </div><Link to="/" className="btn2">
     HOME PAGE
   </Link>
     </div>
