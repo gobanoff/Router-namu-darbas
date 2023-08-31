@@ -23,7 +23,8 @@
   display: flex;
   font-weight: 700;
 }
-.s1 h1 {color: #000;
+.s1 h1 {
+  color: #000;
   padding-left: 100px;
   padding-top: 30px;
   margin: 0;
@@ -62,7 +63,8 @@
   margin: 0;
   padding: 0;
 }
-.s2 h1 {color: #000;
+.s2 h1 {
+  color: #000;
   padding-left: 100px;
   padding-top: 30px;
   margin: 0;
@@ -142,7 +144,8 @@
 .a {
   padding-right: 40px;
 }
-.s3 h1 {color: #000;
+.s3 h1 {
+  color: #000;
   padding-left: 100px;
   padding-top: 30px;
   margin: 0;
